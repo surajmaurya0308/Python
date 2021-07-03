@@ -1,0 +1,26 @@
+
+ 
+#  1 - Download python IDLE
+
+# Download python 3.8.4  
+
+# go to google and >>python 3.8.4 download
+
+Windows x86-64 executable installer   
+
+# download link
+
+https://www.python.org/downloads/release/python-384/
+
+
+
+# install 
+
+double click on downloaded setup file
+
+# important 
+
+check option on 
+Add python 3.8 to path 
+
+
