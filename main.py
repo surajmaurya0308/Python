@@ -1,4 +1,3 @@
-# coding=utf-8
 import argparse
 import clr
 import ConfigParser
@@ -46,7 +45,6 @@ class Qandle:
         self.web.wait_until_element_is_visible(self.config.get("clock tile", "clock-in"))
         self.web.click_element_by_xpath(self.config.get("clock tile", "clock-in"))
 
-        # self.__message("User successfully clocked in")
         self.clocked = True
 
     def clock_out(self):
@@ -56,7 +54,6 @@ class Qandle:
         self.web.wait_until_element_is_visible(self.config.get("clock tile", "clock-out_confirmation"))
         self.web.click_element_by_xpath(self.config.get("clock tile", "clock-out_confirmation"))
 
-        # self.__message("User successfully clocked out")
         self.clocked = True
 
     def log_out(self):
